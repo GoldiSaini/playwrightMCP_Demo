@@ -1,0 +1,19 @@
+{
+  "name": "playwright-automation-demo",
+  "version": "1.0.0",
+  "description": "Playwright automation project with UI and API testing",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --config=playwright.ui.config.ts",
+    "test:api": "playwright test --config=playwright.api.config.ts",
+    "report": "playwright show-report",
+    "mcp:start": "npx @executeautomation/playwright-mcp-server"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.24",
+    "@executeautomation/playwright-mcp-server": "latest",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.3.3"
+  }
+} 
